@@ -20,8 +20,6 @@ export CXX=g++-10
 
 export FC=gfortran-10
 
-conan remote add simcenter https://nherisimcenter.jfrog.io/artifactory/api/conan/simcenter
-
 cd SimCenterBackendApplications
 
 mkdir build

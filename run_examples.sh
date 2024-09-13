@@ -5,7 +5,8 @@ echo In folder $PWD
 # Clone the examples
 git clone --branch master https://github.com/NHERI-SimCenter/quoFEM.git
 
-# Create the working directoy
+# make sure all packages are installed
+python3.9 -m pip install nheri-simcenter
 
 
 # Read JSON from file

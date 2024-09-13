@@ -12,8 +12,7 @@ sudo apt install -y software-properties-common cmake git
 # Installs the  python 3.9 package. The '-y' flag automatically answers yes to prompts.
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt update 
-sudo apt install python3.9 -y
-sudo apt install python3.9-distutils -y
+sudo apt install python3.9 python3.9-dev python3.9-venv python3.9-distutils -y
 
 # Install pip
 wget https://bootstrap.pypa.io/get-pip.py
